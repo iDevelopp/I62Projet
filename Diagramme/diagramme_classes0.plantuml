@@ -1,0 +1,76 @@
+@startuml
+Serveur o-- Client
+SousMarin o-- Drone
+
+Situation -- Serveur
+
+ControleurServeur -- Serveur
+ControleurClient -- Client
+
+Position -- SousMarin
+Position -- Drone
+
+Situation <|-- Objectif
+Situation -- SousMarin
+Situation -- Map
+
+Map o-- Position
+Map o-- Spawn
+Map o-- Drone
+Map o-- SousMarin
+Map o-- Navire
+Map o-- Ennemi
+
+class Client {
+
+}
+
+class Serveur {
+
+}
+
+class Drone {
+
+}
+
+class SousMarin {
+
+}
+
+class Navire {
+
+}
+
+class Position {
+
+}
+
+class Situation {
+
+}
+
+
+class ControleurServeur {
+
+}
+
+class ControleurClient {
+
+}
+
+class Map {
+
+}
+
+class Spawn {
+
+}
+
+class Objectif {
+
+}
+
+class Ennemi {
+
+}
+@enduml
