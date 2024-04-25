@@ -1,0 +1,48 @@
+@startuml
+
+package DP_L2 {
+    package Client {
+        class Client {
+            - drones: list<Common::Drone>
+            - unite: Common::Unite
+            + gérerDrones()
+            + gérerUnite()
+            + déciderFinSimulation()
+            + envoyerRapport()
+        }
+    }
+    
+    package Serveur {
+        class Serveur {
+            - situations: list<Common::Simulation>
+            - clients: list<Client::Client>
+            + créerSimulation()
+            + attribuerClient(Client::Client)
+            + lancerSimulation()
+        }
+    }
+    
+    package Common {
+        class Drone {
+            - propriétésDrone
+        }
+        
+        class Unite {
+            - propriétésUnite
+        }
+        
+        class Simulation {
+             propriétésSimulation
+        }
+        
+        Drone --> Simulation
+        Unite --> Simulation
+    }
+    
+    Client::Client ..> Common : utilise
+    Serveur::Serveur ..> Common::Simulation : utilise
+    Serveur::Serveur ..> Client::Client : utilise
+}
+
+@enduml
+
