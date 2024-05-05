@@ -1,0 +1,26 @@
+@startuml
+
+package DP_L2 {
+    package BD {
+    
+    }
+    
+    package Client {
+        
+    }
+    
+    package Serveur {
+       
+    }
+    
+    package Common {
+       
+    }
+    
+    Client ..> Common : import
+    Serveur ..> Common : import
+    Serveur <.. BD : access
+    Client <.. BD : access
+}
+
+@enduml

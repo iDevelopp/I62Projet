@@ -1,0 +1,101 @@
+@startuml
+
+class BD {
+    - addr : string
+    - port : int 
+    - cle : string
+    - type_requete : list
+    + acces_rapport()
+    + enregistrer_rapport()
+    + envoyer_requete(type_requete)
+}
+
+
+class Serveur {
+    - id : int
+    - port: int 
+    - addr : string
+    - controleur : ControleurServeur
+    + consulter_rapport_mission()
+    + creer_unite()
+    + cree_simulation()
+    + lancer_simulation()
+}
+
+class ControleurServeur {
+    + envoyer_donnees_serveur()
+    + recevoir_donnees_serveur()
+}
+
+class Simulation {
+    - id : int
+    - terrain: int
+    - client : Client
+    - unite : list<Unité>
+    - unite_adverse : list<Unité>
+}
+
+class Unité {
+    - drones: list<Drone>
+    - sousmarins: list<SousMarin>
+}
+
+class SousMarin {
+    - cap : tuple
+    - position : tuple
+    - mode : int 
+    - dronesAlloués: int
+    + attaquer()
+    + changer_cap()
+    + ecouter()
+    + blanchir()
+    + afficher_position()
+}
+
+class Drone {
+    - id : int 
+    - num_serie : int
+    - position : tuple 
+    - cap : tuple 
+    + envoyer_position()
+    + prise_image()
+    + prise_son()
+    + retour()
+    + exploser()
+    + reperage()
+}
+
+class CarteRadar{
+    - id_terrain : int
+    - billes_vertes : list<SousMarin>
+    - billes_rouges : list<SousMarin>
+    - cones_verts : list<Drone>
+    - cones_rouges : list<Drone>
+    + afficher_positions_drones(unite: drones)
+    + afficher_positions_sousmarins(unite: sousmarin)
+    + afficher_positions_drones_adverse(unite: drones)
+    + afficher_positions_sousmarins_adverse(unite: sousmarin)
+    }
+
+BD <-- Serveur
+Serveur o-- BD
+
+
+Serveur "1" o-- "Many" Simulation
+Serveur o-- CarteRadar
+ControleurServeur "1" -- "1" Serveur : gère
+
+Simulation *- Unité
+Unité *-- Drone
+Unité *-- SousMarin
+SousMarin o-- Drone
+CarteRadar *-- Drone
+CarteRadar *-- SousMarin
+
+note right of ControleurServeur
+  Le ControleurServeur est responsable de la gestion des instances de classes dans le Serveur
+  en fonction des informations qu'il récupère en recevant les données du Client.
+end note
+
+
+@enduml

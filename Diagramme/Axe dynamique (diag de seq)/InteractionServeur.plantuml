@@ -1,0 +1,16 @@
+@startuml
+
+participant Client
+participant Serveur
+participant BD
+participant Common
+
+Client -> Serveur: creer_simulation()
+Serveur -> Common: cree_simulation()
+Common -> Serveur: Simulation
+Serveur -> BD: enregistrer_rapport()
+BD --> Serveur: rapport enregistré
+Serveur -> Common: lancer_simulation()
+Common -> Serveur: Simulation lancée
+
+@enduml
