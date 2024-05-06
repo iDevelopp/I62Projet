@@ -4,13 +4,33 @@ participant Client
 participant Serveur
 participant BD
 participant Common
+participant Client
 
-Client -> Serveur: creer_simulation()
 Serveur -> Common: cree_simulation()
-Common -> Serveur: Simulation
-Serveur -> BD: enregistrer_rapport()
-BD --> Serveur: rapport enregistré
-Serveur -> Common: lancer_simulation()
-Common -> Serveur: Simulation lancée
+Common --> Serveur: Simulation
+
+
+Serveur -> Client: lancer_simulation()
+Client --> Serveur: Simulation lancée !
+
+Client -> Common : cloturer_mission()
+Common --> Client : Mission cloturé !
+
+
+
+
+Client -> BD: connection_BD()
+BD --> Client: Vérification des identifiants
+Client -> BD: Envoyer_identifiant()
+Client --> BD: Confirmation
+Client -> BD: enregistrer_rapport()
+BD --> Client: Transaction confirmée, rapport enregistré
+Client -> BD: fermeture_acces()
+BD --> Client: Connection clôturée
+Client-->Serveur : Fin simulation
+
+Serveur -> BD: consulter_rapport()
+BD --> Serveur: acces_rapport()
+
 
 @enduml
