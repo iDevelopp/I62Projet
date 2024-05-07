@@ -1,0 +1,148 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{textcomp}
+\usepackage{mathtools,amssymb}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage{microtype}
+\usepackage{hyperref} 
+\usepackage{tikz}
+\usepackage{float}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=Brown,
+	urlcolor=Navy, 
+	breaklinks=true,
+	bookmarks=true,
+	pdfstartview=XYZ
+}
+\usepackage{colortbl, soul}
+
+\usepackage{listings} 
+\lstset{
+	inputencoding=utf8,
+	extendedchars=true,
+	literate={é}{{\'e}}1 {è}{{\`e}}1 {à}{{\`a}}1,
+	upquote = true,
+	columns = flexible,
+	basicstyle = \ttfamily,
+	keepspaces=true,
+	language = python,
+	backgroundcolor = \color{Navy!10}, keywordstyle = \color{ForestGreen}\bfseries, % numbers=left, numberstyle=\tiny,
+	tabsize = 4,
+}
+
+\usepackage{amsthm}
+
+\theoremstyle{plain} 
+\newtheorem{theoreme}{Théorème}[section] 
+%\newtheorem{proposition}[theoreme]{Proposition} 
+%\newtheorem{corollaire}[theoreme]{Corollaire} 
+%\newtheorem{lemme}[theoreme]{Lemme}
+%\newtheorem{exo}{Exercice}
+\theoremstyle{definition} 
+\newtheorem{definition}[theoreme]{Définition}
+\theoremstyle{remark} 
+\newtheorem*{remarque}{Remarque}
+
+
+\newcommand{\cad}{\text{c'est à dire }}
+\newcommand{\guillemets}[1]{\og #1\fg} % Commande Mme Gloria Faccanoni
+
+%\title{Rapport Projet I62} \author{Ivan CROS, Matteo BONAVITA, Clément MAYNADIER - Groupe A1} \date{\today}
+
+\newcommand{\monuniversite}{Université de Toulon, I62 Génie Logiciel}
+\newcommand{\autheur}{Ivan CROS, Matteo BONAVITA, Clément MAYNADIER - Groupe A1}
+\newcommand{\titrerapport}{Rapport Projet I62}
+
+
+\usepackage{fancyhdr}
+
+\fancyhead[L]{\leftmark}
+\fancyhead[C]{}
+\fancyhead[R]{}
+
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{\thepage}
+
+\pagestyle{fancy}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\begin{tikzpicture}[remember picture,overlay]
+		        \shade[top color=blue!70,bottom color=blue!10] (current page.north west) rectangle (current page.south east);
+		\end{tikzpicture}
+		
+		\centering
+		\vspace*{2cm}
+		{\scshape\Large \textcolor{white}{\monuniversite} \par}
+		\vspace{1.5cm}
+		{\huge\bfseries \textcolor{white}{\titrerapport} \par}
+		
+		\vspace{1.5cm}
+		{\Large\itshape \textcolor{white}{\autheur} \par}
+			\vspace{2cm}
+			
+		\begin{figure}[h]
+			\centering
+			\includegraphics[height=8cm]{img/Virginia_class_submarine.jpg} 
+			\caption{Illustration d'un sous-marin d'attaque, réalisé par Ron Stern}
+		\end{figure}
+		
+		
+	
+		
+		\vfill
+		{\large \today \par}
+	\end{titlepage}
+	
+	%	Page de garde
+	%\maketitle
+	\section*{Objectif du rapport}
+	\input{preface.tex}
+	
+	
+	%fin page de garde 
+	%\newpage
+	
+	%Sommaire
+	\tableofcontents
+	
+	
+	
+	
+	\section{Présentation des membres du groupe}
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=8cm]{img/diagCollaboration.png} 
+		\caption{Illustration de l'attribution des rôles principaux au sein de l'équipe.}
+	\end{figure}
+	
+	\section{Exigences fonctionnelles (listes par catégorie)}
+	\input{ex_func.tex}
+	
+	\section{Maquettage du produit}
+	%\input{file}
+	
+	\section{Conception UML}
+	\input{uml.tex}
+	
+	\section{Le manuel d’installation du logiciel}
+	 %\input{file}
+	 
+	 \section{Le manuel utilisateur du logiciel}
+	 %\input{file}
+	 
+	 \section{Le planning mis en œuvre durant le projet}
+	 \input{agile.tex}
+	 
+	
+	
+\end{document}
