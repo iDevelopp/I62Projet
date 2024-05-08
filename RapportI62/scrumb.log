@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.11)  7 MAY 2024 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.11)  8 MAY 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,27 +1222,38 @@ File: img/gantt_290424.png Graphic file (type png)
 <use img/gantt_290424.png>
 Package pdftex.def Info: img/gantt_290424.png  used on input line 110.
 (pdftex.def)             Requested size: 367.52113pt x 227.62204pt.
-) [12
+<img/gantt_08052024.png, id=178, 598.235pt x 370.38374pt>
+File: img/gantt_08052024.png Graphic file (type png)
+<use img/gantt_08052024.png>
+Package pdftex.def Info: img/gantt_08052024.png  used on input line 134.
+(pdftex.def)             Requested size: 367.65218pt x 227.62204pt.
+ [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 \end{document}
-                    
+l.137 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+l.137 
+       <./img/gantt_290424.png>]) [13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
 l.148 \end{document}
-                     <./img/gantt_290424.png>] (./scrumb.aux)
+                     <./img/gantt_08052024.png>] (./scrumb.aux)
 Package rerunfilecheck Info: File `scrumb.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30312 strings out of 478268
- 570280 string characters out of 5846347
+ 30322 strings out of 478268
+ 570488 string characters out of 5846347
  1150772 words of memory out of 5000000
- 47834 multiletter control sequences out of 15000+600000
+ 47840 multiletter control sequences out of 15000+600000
  528773 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,11n,106p,10628b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1253,10 +1264,10 @@ dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
 type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
 c/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri12.
 pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on scrumb.pdf (12 pages, 888031 bytes).
+Output written on scrumb.pdf (13 pages, 903862 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 35172 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 35177 words of extra memory for PDF output out of 35830 (max. 10000000)
 
