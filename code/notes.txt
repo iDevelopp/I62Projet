@@ -1,0 +1,9 @@
+Voir pour passage de Bytes pour socket.send
+
+
+https://enzircle.hashnode.dev/handling-binary-data-in-socket-programming
+https://python.doctor/page-reseaux-sockets-python-port
+
+
+Object Serialization
+https://docs.python.org/3/library/pickle.html
