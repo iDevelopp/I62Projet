@@ -1,0 +1,41 @@
+@startuml
+package "Schéma relationnel" {
+entity Drone {
+    + id INT (PK)
+    drone_name VARCHAR
+    drone_type VARCHAR
+    drone_status VARCHAR
+    drone_position_x FLOAT
+    drone_position_y FLOAT
+    drone_position_z FLOAT
+}
+
+entity Navire {
+    + id INT (PK)
+    navire_name VARCHAR
+    navire_type VARCHAR
+    navire_status VARCHAR
+    navire_position_x FLOAT
+    navire_position_y FLOAT
+    navire_position_z FLOAT
+}
+
+entity Rapport {
+    + id INT (PK)
+    rapport_name VARCHAR
+    rapport_description TEXT
+    rapport_date DATETIME
+    navire_id INT (FK)
+}
+
+entity Rapport_Drone {
+    + id INT (PK)
+    rapport_id INT (FK)
+    drone_id INT (FK)
+}
+
+Drone --> Rapport_Drone
+Rapport_Drone --> Rapport
+Navire --> Rapport
+}
+@enduml

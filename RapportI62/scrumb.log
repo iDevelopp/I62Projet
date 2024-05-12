@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.11)  8 MAY 2024 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.11)  10 MAY 2024 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,8 +1148,13 @@ Package pdftex.def Info: img/CUSI_Serveur.png  used on input line 8.
 File: img/CUSI_Client.png Graphic file (type png)
 <use img/CUSI_Client.png>
 Package pdftex.def Info: img/CUSI_Client.png  used on input line 14.
-(pdftex.def)             Requested size: 295.28009pt x 227.62204pt.
- [6
+(pdftex.def)             Requested size: 479.83476pt x 369.88582pt.
+
+Overfull \hbox (31.70381pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1160,74 +1165,73 @@ File: img/diagCollaboration.png Graphic file (type png)
 <use img/diagCollaboration.png>
 Package pdftex.def Info: img/diagCollaboration.png  used on input line 22.
 (pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 29.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.32 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.32 
+l.25 
       <./img/CUSI_Client.png>]
+File: img/diagCollaboration.png Graphic file (type png)
+<use img/diagCollaboration.png>
+Package pdftex.def Info: img/diagCollaboration.png  used on input line 29.
+(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
 File: img/diagCollaboration.png Graphic file (type png)
 <use img/diagCollaboration.png>
 Package pdftex.def Info: img/diagCollaboration.png  used on input line 38.
 (pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 45.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
  [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.41 
+     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.48 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.48 
+l.41 
      ]
+File: img/diagCollaboration.png Graphic file (type png)
+<use img/diagCollaboration.png>
+Package pdftex.def Info: img/diagCollaboration.png  used on input line 45.
+(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
 File: img/diagCollaboration.png Graphic file (type png)
 <use img/diagCollaboration.png>
 Package pdftex.def Info: img/diagCollaboration.png  used on input line 54.
 (pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
-) (./agile.tex [9
+) [9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.136 	
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.8 			\item C
-              adrage initial du projet et définition des objectifs; pour se...
-
+l.136 	
+       ] (./agile.tex [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.8 			\item C
-              adrage initial du projet et définition des objectifs; pour se...
-] [10] [11]
-<img/gantt_290424.png, id=177, 601.24625pt x 372.39125pt>
+l.18 		\end{itemize}
+                    ] [11]
+<img/gantt_290424.png, id=173, 601.24625pt x 372.39125pt>
 File: img/gantt_290424.png Graphic file (type png)
 <use img/gantt_290424.png>
 Package pdftex.def Info: img/gantt_290424.png  used on input line 110.
 (pdftex.def)             Requested size: 367.52113pt x 227.62204pt.
-<img/gantt_08052024.png, id=178, 598.235pt x 370.38374pt>
+ [12]
+<img/gantt_08052024.png, id=183, 598.235pt x 370.38374pt>
 File: img/gantt_08052024.png Graphic file (type png)
 <use img/gantt_08052024.png>
 Package pdftex.def Info: img/gantt_08052024.png  used on input line 134.
 (pdftex.def)             Requested size: 367.65218pt x 227.62204pt.
- [12
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1239,7 +1243,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.137 
-       <./img/gantt_290424.png>]) [13
+       <./img/gantt_290424.png>]) [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1250,11 +1254,11 @@ Package rerunfilecheck Info: File `scrumb.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30322 strings out of 478268
- 570488 string characters out of 5846347
+ 30326 strings out of 478268
+ 570526 string characters out of 5846347
  1150772 words of memory out of 5000000
  47840 multiletter control sequences out of 15000+600000
- 528773 words of font info for 102 fonts, out of 8000000 for 9000
+ 528864 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,11n,106p,10628b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1264,10 +1268,10 @@ dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
 type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
 c/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri12.
 pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on scrumb.pdf (13 pages, 903862 bytes).
+Output written on scrumb.pdf (14 pages, 904905 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 323 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
  35177 words of extra memory for PDF output out of 35830 (max. 10000000)
 
