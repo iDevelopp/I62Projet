@@ -1,0 +1,38 @@
+@startuml
+
+    participant Utilisateur
+    participant GUI
+    participant Serveur
+    participant Controler
+    participant Data_Access_Object
+    participant Data
+    participant DB_Manager
+    participant Net
+
+    Utilisateur -> GUI: Paramétrage via l'interface
+    GUI -> Utilisateur: Confirmation des paramètres
+    Utilisateur -> GUI: Lancement de la simulation
+    GUI -> Serveur: Requête de démarrage de la simulation
+    Serveur -> Data_Access_Object: Vérification de la disponibilité des objets
+    Data_Access_Object -> DB_Manager: Requête à la base de données
+    DB_Manager --> Data_Access_Object: Résultat de la requête
+    Data_Access_Object --> Serveur: Disponibilité des objets
+    Serveur -> Controler: Traitement de la requête de démarrage
+    Controler -> Data: Chargement des données pour la simulation
+    Data -> Data_Access_Object: Accès aux données
+    Data_Access_Object -> DB_Manager: Requête à la base de données
+    DB_Manager --> Data_Access_Object: Résultat de la requête
+    Data_Access_Object --> Data: Données récupérées
+    Data --> Controler: Données chargées
+    Controler -> Serveur: Préparation de la simulation
+    Serveur -> Net: Lancement de la simulation
+    loop Simulation en cours
+        Serveur -> Net: Réception d'un message
+        Net -> Serveur: Objet reçu
+        Serveur -> Data_Access_Object: Transformation de l'objet en données
+        Data_Access_Object --> Data: Données récupérées
+        Data --> Controler: Données traitées
+        Controler -> GUI: Transformation de l'objet en message GUI
+    end
+
+@enduml

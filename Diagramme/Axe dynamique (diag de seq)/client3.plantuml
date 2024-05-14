@@ -1,0 +1,50 @@
+@startuml
+
+participant Utilisateur
+participant Serveur
+participant Client1
+participant Client2
+participant Client3
+participant Client4
+
+
+Utilisateur -> Serveur: Attribution du client
+
+
+note right of Serveur
+    Le serveur est en attente de connexions
+    des clients.
+end note
+
+Client1 -> Serveur: Connexion au serveur
+Serveur -> Client1: Attribution d'un identifiant unique
+
+note right of Serveur
+    Le serveur attribue un identifiant
+    unique à chaque client.
+end note
+
+Client2 -> Serveur: Connexion au serveur
+Serveur -> Client2: Attribution d'un identifiant unique
+
+Client3 -> Serveur: Connexion au serveur
+Serveur -> Client3: Attribution d'un identifiant unique
+
+Client4 -> Serveur: Connexion au serveur
+Serveur -> Client4: Attribution d'un identifiant unique
+
+Serveur --> Utilisateur: 4 clients disponibles
+Utilisateur -> Serveur: Lancement de la simulation sim0 sur Client1
+
+
+note right of Serveur
+    Le serveur gère le démarrage de
+    la simulation pour chaque client
+    en utilisant les identifiants attribués.
+end note
+
+Serveur -> Client1: Attribution du rôle pour la simulation
+Serveur -> Client1: Lancement de la simulation sim0
+Serveur --> Utilisateur: Confirmation du démarrage de la simulation
+
+@enduml

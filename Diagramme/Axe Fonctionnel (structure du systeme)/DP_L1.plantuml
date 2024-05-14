@@ -1,26 +1,53 @@
 @startuml
+package "DC L1 Client" #EEEEEE
+{
+   
+    package "Data" #FFFFFF
+    {
+    }
 
-package DP_L2 {
-    package BD {
-    
+    package "GUI" #FFFFFF
+    {
     }
-    
-    package Client {
-        
+
+    package "I18N" #FFFFFF
+    {
     }
-    
-    package Serveur {
-       
+
+    package "Data_Access_Object" #FFFFFF
+    {
     }
-    
-    package Common {
-       
+
+    package "Controler" #FFFFFF
+    {
     }
-    
-    Client ..> Common : import
-    Serveur ..> Common : import
-    Serveur <.. BD : access
-    Client <.. BD : access
+
+    package "Net" #FFFFFF
+    {
+    }
+
+    package "DB_Manager" #FFFFFF
+    {
+    }
+
+    package "Messages" #FFFFFF
+    {
+    }
+
+    note right of Messages
+    Common
+    end note
+
+    note right of I18N
+    Common
+    end note
+
+    GUI --> I18N
+    GUI --> Controler
+    Controler --> GUI
+    Controler --> Data
+    Data_Access_Object --> Data
+    Data_Access_Object --> DB_Manager
+    Net --> Messages
 }
-
 @enduml
