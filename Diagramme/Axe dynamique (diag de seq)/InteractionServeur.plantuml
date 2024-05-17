@@ -1,36 +1,32 @@
 @startuml
-
 participant Client
+participant Net
 participant Serveur
 participant BD
 participant Common
-participant Client
 
-Serveur -> Common: cree_simulation()
+Serveur -> Common: creer_simulation()
 Common --> Serveur: Simulation
-
 
 Serveur -> Client: lancer_simulation()
 Client --> Serveur: Simulation lancée !
 
 Client -> Common : cloturer_mission()
-Common --> Client : Mission cloturé !
+Common --> Client : Mission cloturée !
 
-
-
-
-Client -> BD: connection_BD()
-BD --> Client: Vérification des identifiants
-Client -> BD: Envoyer_identifiant()
-Client --> BD: Confirmation
-Client -> BD: enregistrer_rapport()
-BD --> Client: Transaction confirmée, rapport enregistré
-Client -> BD: fermeture_acces()
-BD --> Client: Connection clôturée
-Client-->Serveur : Fin simulation
+Client -> Net: envoyer_rapport()
+Net -> Serveur: transmettre_rapport()
+Serveur -> BD: connection_BD()
+BD --> Serveur: Vérification des identifiants
+Serveur -> BD: Envoyer_identifiant()
+BD --> Serveur: Confirmation
+Serveur -> BD: enregistrer_rapport()
+BD --> Serveur: Transaction confirmée, rapport enregistré
+Serveur --> Net: rapport_enregistré()
+Net --> Client: Fin simulation
 
 Serveur -> BD: consulter_rapport()
 BD --> Serveur: acces_rapport()
-
-
+Serveur -> BD: fermeture_acces()
+BD --> Serveur: Connection clôturée
 @enduml

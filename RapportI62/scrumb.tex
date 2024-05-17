@@ -99,7 +99,7 @@
 	
 		
 		\vfill
-		{\large \today \par}
+		{\large  \par}
 	\end{titlepage}
 	
 	%	Page de garde
@@ -125,22 +125,153 @@
 		\caption{Illustration de l'attribution des rôles principaux au sein de l'équipe.}
 	\end{figure}
 	
+	
+	
 	\section{Exigences fonctionnelles (listes par catégorie)}
 	\input{ex_func.tex}
 	
 	\section{Maquettage du produit}
-	%\input{file}
+	\subsection{Serveur}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/1.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/2.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/3.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/4.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/5.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/6.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/7.png} 
+	\end{figure}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/8.png} 
+	\end{figure}
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/serveur/final.png} 
+			\caption{Rendu final attendu (illustration sitac reprise du \href{https://fr.pilotaware.com/post/strategic-vs-tactical-awareness}{PilotAware Rosetta})}
+	\end{figure}
+	
+		\subsection{Client}
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/Client/ihm_client1.png} 
+	\end{figure}
+			\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/Client/ihm_client2.png} 
+	\end{figure}
+			\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/Client/ihm_client3.png} 
+	\end{figure}
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[height=10cm]{img/maquette/Client/final.png} 
+		\caption{Rendu final attendu (illustration sitac reprise du \href{https://fr.pilotaware.com/post/strategic-vs-tactical-awareness}{PilotAware Rosetta})}
+	\end{figure}
+	
 	
 	\section{Conception UML}
 	\input{uml.tex}
 	
 	\section{Le manuel d’installation du logiciel}
 	 %\input{file}
+	 \subsection{Installation des bibliothèques}
 	 
+	 \subsection{Tkinter}
+	 Tkinter est une bibliothèque pour créer des interfaces graphiques en Python. Si vous utilisez Python 3, il est probablement déjà installé. Sinon, vous pouvez l'installer en utilisant pip :
+	 \begin{verbatim}
+	 	pip install tk
+	 \end{verbatim}
+	 
+	 \subsection{Pillow}
+	 Pillow est une bibliothèque de traitement d'images en Python. Vous pouvez l'installer via pip :
+	 \begin{verbatim}
+	 	pip install Pillow
+	 \end{verbatim}
+	 
+
+
+\subsection{Comment procéder à l'exécution}
+
+Pour le logiciel de configuration de simulation côté serveur :
+
+\begin{enumerate}
+	\item Placez-vous dans le répertoire Code/server.
+	\item Ouvrez un terminal.
+	\item Exécutez le fichier client.py en utilisant la commande suivante :
+	\begin{verbatim}
+		python3 client.py
+	\end{verbatim}
+\end{enumerate}
+
+Pour le logiciel de simulation côté client :
+
+\begin{enumerate}
+	\item Placez-vous dans le répertoire Code/client.
+	\item Ouvrez un terminal.
+	\item Exécutez le fichier serveur.py en utilisant la commande suivante :
+	\begin{verbatim}
+		python3 serveur.py
+	\end{verbatim}
+\end{enumerate}
+
+
+
 	 \section{Le manuel utilisateur du logiciel}
 	 %\input{file}
+	  \subsection{Application Client}
+	 
+	 L'application côté client permet trois actions différentes : "Envoyer drônes", "Gérer sous-marin" et "Générer un rapport".
+	 
+	 \begin{itemize}
+	 	\item "Envoyer drônes" ordonne à un de vos drônes de commencer une opération. Vous pouvez sélectionner plusieurs drônes à la fois. L'application indiquera combien de drônes sont en opération et combien sont disponibles. Lorsque vous envoyez un drône ou plusieurs en opération, vous pouvez définir leur trajectoire, les diviser en plusieurs groupes et choisir un mode d'action entre faire de la reconnaissance, explorer ou faire de l'écoute.
+	 	\item "Gérer sous-marin" permet de donner un cap au sous-marin. Vous pouvez aussi donner l'ordre d'écouter ou d'attaquer un autre sous-marin, ou de blanchir (sécuriser) une zone. Pour blanchir une zone, choisissez trois points de l'espace, ces trois points définiront la zone triangulaire à blanchir.
+	 	\item "Générer un rapport" permet d'envoyer un rapport au serveur en choisissant les données à fournir. Vous pouvez consulter le rapport à tout moment.
+	 \end{itemize}
+	 
+	 La partie droite de l'application représente la carte avec au centre le sous-marin contrôlé. Les drônes sous le contrôle du sous-marin sont représentés par des cônes, les unités alliées en vert et les OPFOR en rouge.
+	 
+	 \subsection{Application Serveur}
+	 
+	 L'application côté serveur permet de faire les actions suivantes :
+	 
+	 \begin{itemize}
+	 	\item Consulter un rapport : entrez le numéro d'une mission passée pour pouvoir consulter son rapport.
+	 	\item Créer une unité : vous permet de créer un drône ou un navire qui sera l'acteur principal d'une simulation. Après avoir créé l'unité, cliquez sur "Créer une simulation".
+	 	\item Gérer une simulation : après avoir créé l'acteur principal, vous permet de définir une simulation et de la lancer. Avant de pouvoir lancer la simulation, il est nécessaire de compléter toutes les étapes de la création, à savoir placer les unités de la simulation, définir le terrain, le type de simulation, l'OPFOR et définir un client pour cette simulation.
+	 	\item Visualisation : affiche le déroulement de la simulation une fois lancée.
+	 \end{itemize}
+	 
 	 
 	 \section{Le planning mis en œuvre durant le projet}
+	 	\begin{figure}[h]
+	 	\centering
+	 	\includegraphics[height=7cm]{img/Gant.png} 
+	 	\caption{Diagramme de Gantt pour la planification du projet.}
+	 \end{figure}
 	 \input{agile.tex}
 	 
 	

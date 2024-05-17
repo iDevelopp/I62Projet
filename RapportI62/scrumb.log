@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.11)  10 MAY 2024 21:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.11)  18 MAY 2024 01:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,114 +1125,332 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write5
 \openout5 = `scrumb.toc'.
 
-<img/diagCollaboration.png, id=91, 1049.9225pt x 601.24625pt>
+<img/diagCollaboration.png, id=101, 1049.9225pt x 601.24625pt>
 File: img/diagCollaboration.png Graphic file (type png)
 <use img/diagCollaboration.png>
 Package pdftex.def Info: img/diagCollaboration.png  used on input line 124.
 (pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
 
-(./ex_func.tex [3
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./ex_func.tex [3] [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.5 \end{itemize}
-                  <./img/diagCollaboration.png>] [4]) (./uml.tex
-<img/CUSI_Serveur.png, id=122, 1219.55624pt x 630.355pt>
+l.50 	\item L
+             'OPFOR doit avoir des unités navales capables de se déplacer ...
+ <./img/diagCollaboration.png>])
+<img/maquette/serveur/1.png, id=142, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/1.png Graphic file (type png)
+<use img/maquette/serveur/1.png>
+Package pdftex.def Info: img/maquette/serveur/1.png  used on input line 137.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+<img/maquette/serveur/2.png, id=143, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/2.png Graphic file (type png)
+<use img/maquette/serveur/2.png>
+Package pdftex.def Info: img/maquette/serveur/2.png  used on input line 141.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+ [5]
+<img/maquette/serveur/3.png, id=149, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/3.png Graphic file (type png)
+<use img/maquette/serveur/3.png>
+Package pdftex.def Info: img/maquette/serveur/3.png  used on input line 145.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+ [6 <./img/maquette/serveur/1.png>]
+<img/maquette/serveur/4.png, id=155, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/4.png Graphic file (type png)
+<use img/maquette/serveur/4.png>
+Package pdftex.def Info: img/maquette/serveur/4.png  used on input line 149.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+<img/maquette/serveur/5.png, id=156, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/5.png Graphic file (type png)
+<use img/maquette/serveur/5.png>
+Package pdftex.def Info: img/maquette/serveur/5.png  used on input line 153.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+
+[7 <./img/maquette/serveur/2.png> <./img/maquette/serveur/3.png>]
+<img/maquette/serveur/6.png, id=164, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/6.png Graphic file (type png)
+<use img/maquette/serveur/6.png>
+Package pdftex.def Info: img/maquette/serveur/6.png  used on input line 157.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+<img/maquette/serveur/7.png, id=165, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/7.png Graphic file (type png)
+<use img/maquette/serveur/7.png>
+Package pdftex.def Info: img/maquette/serveur/7.png  used on input line 161.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+ [8 <./img/maquette/serveur/4.png> <./img/maquette/serveur/5.png>]
+<img/maquette/serveur/8.png, id=172, 839.135pt x 932.48375pt>
+File: img/maquette/serveur/8.png Graphic file (type png)
+<use img/maquette/serveur/8.png>
+Package pdftex.def Info: img/maquette/serveur/8.png  used on input line 165.
+(pdftex.def)             Requested size: 256.04463pt x 284.52756pt.
+ [9 <./img/maquette/serveur/6.png> <./img/maquette/serveur/7.png>]
+<img/maquette/serveur/final.png, id=180, 561.09625pt x 632.3625pt>
+File: img/maquette/serveur/final.png Graphic file (type png)
+<use img/maquette/serveur/final.png>
+Package pdftex.def Info: img/maquette/serveur/final.png  used on input line 170
+.
+(pdftex.def)             Requested size: 252.46529pt x 284.52756pt.
+<img/maquette/Client/ihm_client1.png, id=183, 1234.6125pt x 928.46875pt>
+File: img/maquette/Client/ihm_client1.png Graphic file (type png)
+<use img/maquette/Client/ihm_client1.png>
+Package pdftex.def Info: img/maquette/Client/ihm_client1.png  used on input lin
+e 178.
+(pdftex.def)             Requested size: 378.35536pt x 284.52756pt.
+<img/maquette/Client/ihm_client2.png, id=184, 1234.6125pt x 928.46875pt>
+File: img/maquette/Client/ihm_client2.png Graphic file (type png)
+<use img/maquette/Client/ihm_client2.png>
+Package pdftex.def Info: img/maquette/Client/ihm_client2.png  used on input lin
+e 182.
+(pdftex.def)             Requested size: 378.35536pt x 284.52756pt.
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.183 	\end{figure}
+                    <./img/maquette/serveur/8.png> <./img/maquette/serveur/fina
+l.png>]
+<img/maquette/Client/ihm_client3.png, id=192, 1234.6125pt x 928.46875pt>
+File: img/maquette/Client/ihm_client3.png Graphic file (type png)
+<use img/maquette/Client/ihm_client3.png>
+Package pdftex.def Info: img/maquette/Client/ihm_client3.png  used on input lin
+e 186.
+(pdftex.def)             Requested size: 378.35536pt x 284.52756pt.
+ [11 <./img/maquette/Client/ihm_client1.png> <./img/maquette/Client/ihm_client2
+.png>]
+<img/maquette/Client/final.png, id=199, 801.99625pt x 582.175pt>
+File: img/maquette/Client/final.png Graphic file (type png)
+<use img/maquette/Client/final.png>
+Package pdftex.def Info: img/maquette/Client/final.png  used on input line 191.
+
+(pdftex.def)             Requested size: 391.96588pt x 284.52756pt.
+ (./uml.tex
+<img/CUSI_Serveur.png, id=202, 1219.55624pt x 630.355pt>
 File: img/CUSI_Serveur.png Graphic file (type png)
 <use img/CUSI_Serveur.png>
 Package pdftex.def Info: img/CUSI_Serveur.png  used on input line 8.
 (pdftex.def)             Requested size: 440.37976pt x 227.62204pt.
- [5]
-<img/CUSI_Client.png, id=128, 806.01125pt x 621.32124pt>
+ [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.11 \subsubsection
+                   {Diagramme de cas d'usage SI Client} <./img/maquette/Client/
+ihm_client3.png> <./img/maquette/Client/final.png>]
+<img/CUSI_Client.png, id=210, 920.43875pt x 714.67pt>
 File: img/CUSI_Client.png Graphic file (type png)
 <use img/CUSI_Client.png>
 Package pdftex.def Info: img/CUSI_Client.png  used on input line 14.
-(pdftex.def)             Requested size: 479.83476pt x 369.88582pt.
+(pdftex.def)             Requested size: 476.38374pt x 369.88582pt.
 
-Overfull \hbox (31.70381pt too wide) in paragraph at lines 14--15
+Overfull \hbox (28.25279pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
-[6
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.17 
       <./img/CUSI_Serveur.png>]
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 22.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
- [7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+<img/DC_L1Client.png, id=218, 714.67pt x 315.1775pt>
+File: img/DC_L1Client.png Graphic file (type png)
+<use img/DC_L1Client.png>
+Package pdftex.def Info: img/DC_L1Client.png  used on input line 22.
+(pdftex.def)             Requested size: 322.57997pt x 142.26378pt.
+ [14
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.25 
       <./img/CUSI_Client.png>]
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 29.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 38.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
- [8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.41 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.41 
-     ]
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 45.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
-File: img/diagCollaboration.png Graphic file (type png)
-<use img/diagCollaboration.png>
-Package pdftex.def Info: img/diagCollaboration.png  used on input line 54.
-(pdftex.def)             Requested size: 397.48479pt x 227.62204pt.
-) [9
+<img/DC_L1Serveur.png, id=225, 714.67pt x 315.1775pt>
+File: img/DC_L1Serveur.png Graphic file (type png)
+<use img/DC_L1Serveur.png>
+Package pdftex.def Info: img/DC_L1Serveur.png  used on input line 28.
+(pdftex.def)             Requested size: 322.57997pt x 142.26378pt.
+<img/DC_L2_Serveur.png, id=226, 1145.27875pt x 1083.04625pt>
+File: img/DC_L2_Serveur.png Graphic file (type png)
+<use img/DC_L2_Serveur.png>
+Package pdftex.def Info: img/DC_L2_Serveur.png  used on input line 36.
+(pdftex.def)             Requested size: 451.3054pt x 426.79134pt.
+
+Overfull \hbox (3.17445pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.136 	
-       
+l.39 
+     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.136 	
-       ] (./agile.tex [10
+l.39 
+      <./img/DC_L1Client.png> <./img/DC_L1Serveur.png>]
+<img/DC_L2_Client.png, id=235, 871.255pt x 1083.04625pt>
+File: img/DC_L2_Client.png Graphic file (type png)
+<use img/DC_L2_Client.png>
+Package pdftex.def Info: img/DC_L2_Client.png  used on input line 42.
+(pdftex.def)             Requested size: 343.32436pt x 426.79134pt.
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+l.45 
+      <./img/DC_L2_Serveur.png>]
+<img/serveur.png, id=242, 1005.7575pt x 942.52126pt>
+File: img/serveur.png Graphic file (type png)
+<use img/serveur.png>
+Package pdftex.def Info: img/serveur.png  used on input line 52.
+(pdftex.def)             Requested size: 455.42581pt x 426.79134pt.
+
+Overfull \hbox (7.29486pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+[17
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.55 
+      <./img/DC_L2_Client.png>]
+<img/client.png, id=249, 632.3625pt x 1161.33875pt>
+File: img/client.png Graphic file (type png)
+<use img/client.png>
+Package pdftex.def Info: img/client.png  used on input line 59.
+(pdftex.def)             Requested size: 232.38802pt x 426.79134pt.
+ [18
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.62 
+      <./img/serveur.png>]
+<img/SeqServeur.png, id=256, 691.58376pt x 428.60126pt>
+File: img/SeqServeur.png Graphic file (type png)
+<use img/SeqServeur.png>
+Package pdftex.def Info: img/SeqServeur.png  used on input line 69.
+(pdftex.def)             Requested size: 367.28688pt x 227.62204pt.
+ [19
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.72 
+      <./img/client.png>]
+<img/ServeurRole.png, id=263, 541.02126pt x 417.56pt>
+File: img/ServeurRole.png Graphic file (type png)
+<use img/ServeurRole.png>
+Package pdftex.def Info: img/ServeurRole.png  used on input line 75.
+(pdftex.def)             Requested size: 294.92915pt x 227.62204pt.
+<img/DiagSeq_IntenvoiRapport.png, id=264, 626.34pt x 590.205pt>
+File: img/DiagSeq_IntenvoiRapport.png Graphic file (type png)
+<use img/DiagSeq_IntenvoiRapport.png>
+Package pdftex.def Info: img/DiagSeq_IntenvoiRapport.png  used on input line 82
+.
+(pdftex.def)             Requested size: 241.55737pt x 227.62204pt.
+ [20
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.85 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.85 
+      <./img/SeqServeur.png> <./img/ServeurRole.png>]
+<img/diagSeqModif.png, id=273, 1052.93375pt x 475.7775pt>
+File: img/diagSeqModif.png Graphic file (type png)
+<use img/diagSeqModif.png>
+Package pdftex.def Info: img/diagSeqModif.png  used on input line 88.
+(pdftex.def)             Requested size: 503.74762pt x 227.62204pt.
+
+Overfull \hbox (55.61667pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
+
+<img/MEA.png, id=274, 1438.37375pt x 831.105pt>
+File: img/MEA.png Graphic file (type png)
+<use img/MEA.png>
+Package pdftex.def Info: img/MEA.png  used on input line 96.
+(pdftex.def)             Requested size: 393.94084pt x 227.62204pt.
+[21
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.99 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.99 
+      <./img/DiagSeq_IntenvoiRapport.png> <./img/diagSeqModif.png>])
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+05.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.223 	\item O
+              uvrez un terminal. <./img/MEA.png (PNG copy)>] [23]
+<img/Gant.png, id=298, 960.58875pt x 419.5675pt>
+File: img/Gant.png Graphic file (type png)
+<use img/Gant.png>
+Package pdftex.def Info: img/Gant.png  used on input line 272.
+(pdftex.def)             Requested size: 455.99124pt x 199.16928pt.
+
+Overfull \hbox (7.86029pt too wide) in paragraph at lines 272--273
+ [][] 
+ []
+
+(./agile.tex [24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
 l.18 		\end{itemize}
-                    ] [11]
-<img/gantt_290424.png, id=173, 601.24625pt x 372.39125pt>
+                     <./img/Gant.png>] [25]
+<img/gantt_290424.png, id=320, 601.24625pt x 372.39125pt>
 File: img/gantt_290424.png Graphic file (type png)
 <use img/gantt_290424.png>
 Package pdftex.def Info: img/gantt_290424.png  used on input line 110.
 (pdftex.def)             Requested size: 367.52113pt x 227.62204pt.
- [12]
-<img/gantt_08052024.png, id=183, 598.235pt x 370.38374pt>
+ [26]
+<img/gantt_08052024.png, id=330, 598.235pt x 370.38374pt>
 File: img/gantt_08052024.png Graphic file (type png)
 <use img/gantt_08052024.png>
 Package pdftex.def Info: img/gantt_08052024.png  used on input line 134.
 (pdftex.def)             Requested size: 367.65218pt x 227.62204pt.
- [13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+ [27
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1243,22 +1461,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.137 
-       <./img/gantt_290424.png>]) [14
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+       <./img/gantt_290424.png>]) [28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 \end{document}
+l.279 \end{document}
                      <./img/gantt_08052024.png>] (./scrumb.aux)
 Package rerunfilecheck Info: File `scrumb.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30326 strings out of 478268
- 570526 string characters out of 5846347
- 1150772 words of memory out of 5000000
- 47840 multiletter control sequences out of 15000+600000
- 528864 words of font info for 103 fonts, out of 8000000 for 9000
+ 30608 strings out of 478268
+ 576452 string characters out of 5846347
+ 1150771 words of memory out of 5000000
+ 48042 multiletter control sequences out of 15000+600000
+ 529637 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,11n,106p,10628b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1267,11 +1485,12 @@ texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
 dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
 type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
 c/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri12.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on scrumb.pdf (14 pages, 904905 bytes).
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on scrumb.pdf (28 pages, 5936074 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 35177 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 35894 words of extra memory for PDF output out of 42996 (max. 10000000)
 

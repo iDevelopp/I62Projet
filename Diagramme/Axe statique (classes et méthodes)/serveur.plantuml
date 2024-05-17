@@ -65,7 +65,7 @@ class Drone {
     + reperage()
 }
 
-class CarteRadar{
+class Sitac{
     - id_terrain : int
     - billes_vertes : list<SousMarin>
     - billes_rouges : list<SousMarin>
@@ -89,8 +89,8 @@ Simulation *- Unité
 Unité *-- Drone
 Unité *-- SousMarin
 SousMarin o-- Drone
-CarteRadar *-- Drone
-CarteRadar *-- SousMarin
+Sitac *-- Drone
+Sitac *-- SousMarin
 
 note right of ControleurServeur
   Le ControleurServeur est responsable de la gestion des instances de classes dans le Serveur
